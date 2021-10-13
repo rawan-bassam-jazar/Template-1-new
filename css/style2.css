@@ -1,0 +1,37 @@
+ *{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+ }
+ .header{
+     background-color: green;
+ }
+ .container{
+width:80%;
+margin:auto;
+ }
+ .header .logo{
+     background-color:red;
+     width:40%;
+     float:left;
+   
+ }
+
+ .header .nav{
+     background-color:orange;
+      width:60%;
+      float:left;
+      list-style: none;
+ }
+.header .nav li{
+    display:inline-block;
+  
+}
+.header .nav li a{
+    display:block;
+    padding:12px;
+    
+}
+.head-container{
+    overflow:hidden;
+}
